@@ -1,0 +1,88 @@
+Last login: Wed Aug 29 20:35:11 on ttys000
+Toms-MacBook-Pro:~ tomkerckhaert$ cd 
+.CFUserTextEncoding  .cups/               Library/
+.DS_Store            .viminfo             Movies/
+.Trash/              Applications/        Music/
+.android/            Desktop/             Pictures/
+.atom/               Documents/           Public/
+.bash_history        Downloads/           
+.bash_sessions/      Google Drive/        
+Toms-MacBook-Pro:~ tomkerckhaert$ cd 
+.CFUserTextEncoding  .cups/               Library/
+.DS_Store            .viminfo             Movies/
+.Trash/              Applications/        Music/
+.android/            Desktop/             Pictures/
+.atom/               Documents/           Public/
+.bash_history        Downloads/           
+.bash_sessions/      Google Drive/        
+Toms-MacBook-Pro:~ tomkerckhaert$ cd Downloads
+Toms-MacBook-Pro:Downloads tomkerckhaert$ cd code-academy/
+Toms-MacBook-Pro:code-academy tomkerckhaert$ mkdir Broadway
+Toms-MacBook-Pro:code-academy tomkerckhaert$ ls
+BeachParadise		Excursion		Two_Sandals
+Broadway		HelloWorld		git_practice
+Dasmotos		Krulletom		hello_html
+DevProject		Paris			krulletom.github.io
+Toms-MacBook-Pro:code-academy tomkerckhaert$ cd Broadway
+Toms-MacBook-Pro:Broadway tomkerckhaert$ mkdir resources
+Toms-MacBook-Pro:Broadway tomkerckhaert$ cd resources
+Toms-MacBook-Pro:resources tomkerckhaert$ mkdir css
+Toms-MacBook-Pro:resources tomkerckhaert$ mkdir images
+Toms-MacBook-Pro:resources tomkerckhaert$ cd css
+Toms-MacBook-Pro:css tomkerckhaert$ touch style.css
+Toms-MacBook-Pro:css tomkerckhaert$ cd ../
+Toms-MacBook-Pro:resources tomkerckhaert$ ls
+css	images
+Toms-MacBook-Pro:resources tomkerckhaert$ cd ../
+Toms-MacBook-Pro:Broadway tomkerckhaert$ ls
+resources
+Toms-MacBook-Pro:Broadway tomkerckhaert$ touch index.html
+Toms-MacBook-Pro:Broadway tomkerckhaert$ git add index.html
+fatal: Not a git repository (or any of the parent directories): .git
+Toms-MacBook-Pro:Broadway tomkerckhaert$ ls
+index.html	resources
+Toms-MacBook-Pro:Broadway tomkerckhaert$ git init
+Initialized empty Git repository in /Users/tomkerckhaert/Downloads/code-academy/Broadway/.git/
+Toms-MacBook-Pro:Broadway tomkerckhaert$ git add index.html
+Toms-MacBook-Pro:Broadway tomkerckhaert$ nano index.html
+Toms-MacBook-Pro:Broadway tomkerckhaert$ git add style.css
+fatal: pathspec 'style.css' did not match any files
+Toms-MacBook-Pro:Broadway tomkerckhaert$ ls
+index.html	resources
+Toms-MacBook-Pro:Broadway tomkerckhaert$ cd resources
+Toms-MacBook-Pro:resources tomkerckhaert$ ls
+css	images
+Toms-MacBook-Pro:resources tomkerckhaert$ cd css
+Toms-MacBook-Pro:css tomkerckhaert$ ls
+style.css
+Toms-MacBook-Pro:css tomkerckhaert$ git add style.css
+Toms-MacBook-Pro:css tomkerckhaert$ nano style.css
+Toms-MacBook-Pro:css tomkerckhaert$ git add -all
+error: did you mean `--all` (with two dashes ?)
+Toms-MacBook-Pro:css tomkerckhaert$ git add --all
+Toms-MacBook-Pro:css tomkerckhaert$ git commit
+
+First commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Tom Kerckhaert <tomkerckhaert@Toms-MacBook-Pro.local>
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   ../../.DS_Store
+#       new file:   ../../index.html
+#       new file:   ../.DS_Store
+#       new file:   style.css
+#       new file:   ../images/broadway.png
+#       new file:   ../images/broadway_redline.jpg
+#       new file:   ../images/execute.svg
+#       new file:   ../images/identify.svg
+#       new file:   ../images/the-flatiron-building.png
+#       new file:   ../images/understand.svg
+
+~                                                                               
+-- INSERT --
